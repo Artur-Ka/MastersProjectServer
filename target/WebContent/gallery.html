@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<title>Онлайн поликлиника</title>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Pragma" content="no-cache" />
+		<link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+		
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+	<body>
+		<!-- Хедер -->
+		<div id="header_wrapper">
+			<div id="header"></div>
+		</div>
+		<!-- Конец хедера -->
+		<!-- Банер (шапка) -->
+		<div id="banner_wrapper">
+			<div id="banner"></div>
+		</div>
+		<!-- Конец банера -->
+		<!-- Меню -->
+		<div id="menu_wrapper">    
+			<div id="menu">
+				<ul>
+					<li><a href="http://127.0.0.1:8080/index.html"><span></span>Головна</a></li>
+					<li><a href="http://127.0.0.1:8080/doctors.html"><span></span>Лікарі</a></li>
+					<li><a href="http://127.0.0.1:8080/entry.html"><span></span>Запис</a></li>
+					<li><a href="http://127.0.0.1:8080/info.html"><span></span>Про нас</a></li>
+					<li><a href="http://127.0.0.1:8080/gallery.html" class="current"><span></span>Фото</a></li>
+					<li><a href="http://127.0.0.1:8080/contacts.html"><span></span>Контакти</a></li>
+				</ul>    	
+			</div>
+		</div>
+		<!-- Конец меню -->
+		<!-- Контент -->
+		<div id="container">
+			<a href="./images/gallery/image_1.jpg" class="flipLightBox">
+				<img src="./images/gallery/image_1.jpg" width="225" height="225" alt="Image 1" />
+				<span><b>Фото 1</b> текст</span>
+			</a>
+
+			<a href="//unsplash.it/400/300?image=1" class="flipLightBox">
+				<img src="//unsplash.it/400/300?image=1" width="225" height="225" alt="flipLightBox Image 2" />
+				<span><b>LightBox Image 2</b><br />Text to accompany 2nd lightbox image</span>
+			</a>
+
+			<a href="//unsplash.it/400/300?image=1" class="flipLightBox">
+				<img src="//unsplash.it/400/300?image=1" width="225" height="225" alt="flipLightBox Image 3" />
+				<span><b>LightBox Three</b> Text to accompany the third lightbox image</span>
+			</a>
+
+			<a href="//unsplash.it/400/300?image=1" class="flipLightBox">
+				<img src="//unsplash.it/400/300?image=1" width="225" height="225" alt="flipLightBox Image 4" />
+				<span><b>The Final LightBox</b> Text to accompany the last of the lighboxes</span>
+			</a>
+		</div>
+		<!-- Конец контента -->
+		<!-- Футер -->
+		<div id="footer_wrapper">        
+			<div id="footer">Copyright © 2017 <a href="subpage.html">Онлайн поліклініка "OnClinic"</a></div>
+		</div>
+		<!-- Конец футера -->
+		<!-- Scripts -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/gallery.js"></script>
+		<script type="text/javascript">$('body').flipLightBox()</script>
+	</body>
+</html>
